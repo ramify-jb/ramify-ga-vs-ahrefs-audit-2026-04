@@ -2,29 +2,25 @@
 
 ## Résumé exécutif
 
-Le décalage `Ahrefs Web Analytics vs Google Analytics` est réel, **GA4 baisse beaucoup plus que les benchmarks externes** sur le trafic public `www`.
+Le décalage `Ahrefs Web Analytics vs Google Analytics` est réel :
 
-La lecture la plus robuste est :
-
-1. **Attention à comparer les bonnes métriques.**
-   Ahrefs `visitors` n'est pas l'équivalent de GA4 `totalUsers`. La comparaison la plus saine au niveau site est plutôt `Ahrefs visits` vs `GA sessions`.
-
-2. **GA4 décroche beaucoup plus que les benchmarks externes.**
+1. **GA4 montre une baisse beaucoup plus importante que les benchmarks externes.**
    Sur `www.ramify.fr` :
    - GA4 `Organic Search sessions` : `77 722` -> `48 149` (`-38,0 %`)
    - GA4 `Direct sessions` : `27 540` -> `10 714` (`-61,1 %`)
    - GA4 `Referral sessions` : `9 466` -> `5 412` (`-42,8 %`)
    - et le signal anormal existe aussi au niveau des `pageviews`, pas seulement des `sessions`
 
-3. **Je ne trouve pas de preuve d'un bug fatal live, ni d'un “jour de rupture” unique.**
+2. **Je ne trouve pas de preuve d'un bug fatal live, ni d'un “jour de rupture” unique.**
    Le live actuel envoie bien des hits GA4 sur `www`, en consent `denied` comme en consent `granted`, et le daily cut ne montre pas de cliff net au `2026-03-01` ou au `2026-03-02`.
 
 En synthèse :
 
-- la comparaison `Ahrefs visitors` vs `GA4 totalUsers` exagère mécaniquement le gap
 - GA4 décroche **beaucoup plus** que les benchmarks externes
 - le meilleur diagnostic à ce stade est une **dégradation historique de mesure GA4 sur le trafic public `www`**, surtout sur `Organic`, `Direct` et `Referral`
 - je n'ai pas assez d'éléments pour l'attribuer avec certitude à un tag totalement cassé, à `app.ramify.fr`, ou à un unique déploiement précis
+
+**Note :** attention à bien comparer les bonnes métriques parce que `Ahrefs visitors` vs `GA4 totalUsers` exagère mécaniquement le gap.
 
 ## Ce que j'ai vérifié
 
@@ -54,7 +50,7 @@ Conclusion :
 - Ahrefs `search` n'est pas hors-sol sur le SEO public
 - GSC et Ahrefs `search` peuvent servir de baseline externe pour évaluer si GA4 diverge trop
 
-## Constat 2 : le premier gros écart vient de la mauvaise équivalence métrique
+## Constat 2 : l'écart peut paraître plus important qu'il ne l'est si on compare les mauvaises métriques
 
 Ahrefs :
 
