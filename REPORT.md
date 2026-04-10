@@ -2,14 +2,14 @@
 
 ## Résumé exécutif
 
-Le décalage `Ahrefs Web Analytics vs Google Analytics` est réel, et le point utile n'est pas le niveau de trafic Ahrefs pris isolément. Le sujet est que **GA4 décroche beaucoup plus que les benchmarks externes** sur le trafic public `www`.
+Le décalage `Ahrefs Web Analytics vs Google Analytics` est réel, **GA4 baisse beaucoup plus que les benchmarks externes** sur le trafic public `www`.
 
 La lecture la plus robuste est :
 
 1. **Attention à comparer les bonnes métriques.**
    Ahrefs `visitors` n'est pas l'équivalent de GA4 `totalUsers`. La comparaison la plus saine au niveau site est plutôt `Ahrefs visits` vs `GA sessions`.
 
-2. **Le point utile n'est pas de savoir si le SEO a baissé, mais que GA4 décroche beaucoup plus que les benchmarks externes.**
+2. **GA4 décroche beaucoup plus que les benchmarks externes.**
    Sur `www.ramify.fr` :
    - GA4 `Organic Search sessions` : `77 722` -> `48 149` (`-38,0 %`)
    - GA4 `Direct sessions` : `27 540` -> `10 714` (`-61,1 %`)
@@ -346,35 +346,7 @@ Mais je peux dire que :
 - **la piste “simple problème de sessionisation” ne suffit pas non plus**
 - **la piste “bug fatal live aujourd'hui” n'est pas supportée**
 
-## Recommandation de lecture
-
-### Pour le benchmark SEO public
-
-Source de vérité :
-
-- **GSC `www.ramify.fr` clicks**
-
-Source de contrôle :
-
-- **Ahrefs `search`**
-
-Usage GA4 :
-
-- comportement
-- conversion
-- pages d'atterrissage
-- mais en gardant en tête qu'il existe probablement un **biais de sous-mesure** sur une partie du trafic public
-
-### Pour le trafic global
-
-Si tu compares Ahrefs et GA4 :
-
-- compare plutôt **Ahrefs `visits`** à **GA4 `sessions`**
-- pas **Ahrefs `visitors`** à **GA4 `totalUsers`**
-
-## Recommandations client
-
-### Immédiat
+## Recommandations pour la suite
 
 1. **Auditer l'historique des changements entre le 15 et le 28 février 2026.**
    À vérifier en priorité :
@@ -383,8 +355,6 @@ Si tu compares Ahrefs et GA4 :
    - changements de code `head` / scripts dans Webflow
    - éventuels changements de règles de consentement ou de déclenchement GA4
    - toute modification des paramètres du tag de configuration GA4
-
-### Dans les 1 à 2 semaines
 
 2. **Faire un QA de tracking complet sur les templates qui pèsent le plus.**
    Priorité sur :
