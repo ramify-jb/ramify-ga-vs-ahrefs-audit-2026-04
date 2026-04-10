@@ -24,20 +24,12 @@ La lecture la plus robuste est :
 4. **Je ne trouve pas de preuve d'un bug fatal live, ni d'un “jour de rupture” unique.**
    Le live actuel envoie bien des hits GA4 sur `www`, en consent `denied` comme en consent `granted`, et le daily cut ne montre pas de cliff net au `2026-03-01` ou au `2026-03-02`.
 
-## Diagnostic final
-
-Le meilleur diagnostic à ce stade est :
-
-- **un `www all traffic` Ahrefs légèrement en hausse en brut mois à mois, mais légèrement en baisse une fois normalisé au jour**
-- **et un décrochage GA4 beaucoup plus fort que les benchmarks externes** sur le trafic public `www`
-- **plus** une **dégradation historique de mesure GA4 sur le trafic public `www`**, surtout sur `Organic`, `Direct` et `Referral`
-- **sans preuve suffisante** pour l'attribuer à un tag totalement cassé, à `app.ramify.fr`, ou à un unique déploiement un jour précis
-
-Autrement dit :
+En synthèse :
 
 - Ahrefs `www` est **en légère hausse en brut mois à mois**, mais **pas** une fois normalisé au jour
-- GA4 décroche quand même **beaucoup plus** que les benchmarks externes
-- la partie “trop forte” ressemble davantage à un **problème de mesure public-site côté GA4** qu'à un problème Ahrefs
+- GA4 décroche **beaucoup plus** que les benchmarks externes
+- le meilleur diagnostic à ce stade est une **dégradation historique de mesure GA4 sur le trafic public `www`**, surtout sur `Organic`, `Direct` et `Referral`
+- je n'ai pas assez d'éléments pour l'attribuer avec certitude à un tag totalement cassé, à `app.ramify.fr`, ou à un unique déploiement précis
 
 ## Ce que j'ai vérifié
 
