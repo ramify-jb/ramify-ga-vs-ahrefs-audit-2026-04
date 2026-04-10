@@ -2,19 +2,19 @@
 
 ## Résumé exécutif
 
-Le décalage `Ahrefs Web Analytics vs Google Analytics` est réel, mais le diagnostic solide n'est **pas** “Ahrefs monte pendant que GA s'effondre”.
+Il y a un vrai décalage entre les données `Ahrefs Web Analytics vs Google Analytics`, avec un problème côté Google Analytics qui existe depuis à peu près mi-février.
 
-La lecture la plus robuste est :
+Points clés :
 
-1. **Vous ne comparez pas toujours la même métrique.**
+1. **Attention à comparer les bonnes métriques.**
    Ahrefs `visitors` n'est pas l'équivalent de GA4 `totalUsers`. La comparaison la plus saine au niveau site est plutôt `Ahrefs visits` vs `GA sessions`.
 
-2. **Le screenshot Ahrefs `www` montre bien une légère hausse brute mois à mois, mais elle est surtout calendaire.**
+2. **Ahrefs `www` montre bien une légère hausse brute mois à mois, mais si on ramène au trafic/jour, le trafic global est en légère baisse.**
    En `www all traffic`, `1–31 Mar 2026` vs `1–28 Feb 2026` donne une légère hausse brute, mais une fois ramené au jour :
    - Ahrefs `www visits / jour` : `5 649` -> `5 274` (`-6,6 %`)
    - Ahrefs `www visitors / jour` : `5 295` -> `4 904` (`-7,4 %`)
 
-3. **Le point utile n'est pas de savoir si le SEO a baissé, mais que GA4 décroche beaucoup plus que les benchmarks externes.**
+3. **GA4 décroche beaucoup plus que les benchmarks externes (GSC et Ahrefs).**
    Sur `www.ramify.fr` :
    - GA4 `Organic Search sessions` : `77 722` -> `48 149` (`-38,0 %`)
    - GA4 `Direct sessions` : `27 540` -> `10 714` (`-61,1 %`)
@@ -22,7 +22,7 @@ La lecture la plus robuste est :
    - et le signal anormal existe aussi au niveau des `pageviews`, pas seulement des `sessions`
 
 4. **Je ne trouve pas de preuve d'un bug fatal live, ni d'un “jour de rupture” unique.**
-   Le live actuel envoie bien des hits GA4 sur `www`, en consent `denied` comme en consent `granted`, et le daily cut ne montre pas de cliff net au `2026-03-01` ou au `2026-03-02`.
+   Le live actuel envoie bien des hits GA4 sur `www`, en consent `denied` comme en consent `granted`, et le daily cut ne montre pas de chute évidente au `2026-03-01` ou au `2026-03-02`.
 
 ## Diagnostic final
 
