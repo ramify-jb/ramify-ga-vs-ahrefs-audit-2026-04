@@ -2,31 +2,26 @@
 
 ## Résumé exécutif
 
-Il y a un vrai décalage entre les données `Ahrefs Web Analytics vs Google Analytics`, avec un problème côté Google Analytics qui existe depuis à peu près mi-février.
+Le décalage `Ahrefs Web Analytics vs Google Analytics` est réel, et le point utile n'est pas le niveau de trafic Ahrefs pris isolément. Le sujet est que **GA4 décroche beaucoup plus que les benchmarks externes** sur le trafic public `www`.
 
-Points clés :
+La lecture la plus robuste est :
 
 1. **Attention à comparer les bonnes métriques.**
    Ahrefs `visitors` n'est pas l'équivalent de GA4 `totalUsers`. La comparaison la plus saine au niveau site est plutôt `Ahrefs visits` vs `GA sessions`.
 
-2. **Ahrefs `www` montre bien une légère hausse brute mois à mois, mais si on ramène au trafic/jour, le trafic global est en légère baisse.**
-   En `www all traffic`, `1–31 Mar 2026` vs `1–28 Feb 2026` donne une légère hausse brute, mais une fois ramené au jour :
-   - Ahrefs `www visits / jour` : `5 649` -> `5 274` (`-6,6 %`)
-   - Ahrefs `www visitors / jour` : `5 295` -> `4 904` (`-7,4 %`)
-
-3. **GA4 décroche beaucoup plus que les benchmarks externes (GSC et Ahrefs).**
+2. **Le point utile n'est pas de savoir si le SEO a baissé, mais que GA4 décroche beaucoup plus que les benchmarks externes.**
    Sur `www.ramify.fr` :
    - GA4 `Organic Search sessions` : `77 722` -> `48 149` (`-38,0 %`)
    - GA4 `Direct sessions` : `27 540` -> `10 714` (`-61,1 %`)
    - GA4 `Referral sessions` : `9 466` -> `5 412` (`-42,8 %`)
    - et le signal anormal existe aussi au niveau des `pageviews`, pas seulement des `sessions`
 
-4. **Je ne trouve pas de preuve d'un bug fatal live, ni d'un “jour de rupture” unique.**
-   Le live actuel envoie bien des hits GA4 sur `www`, en consent `denied` comme en consent `granted`, et le daily cut ne montre pas de chute évidente au `2026-03-01` ou au `2026-03-02`.
+3. **Je ne trouve pas de preuve d'un bug fatal live, ni d'un “jour de rupture” unique.**
+   Le live actuel envoie bien des hits GA4 sur `www`, en consent `denied` comme en consent `granted`, et le daily cut ne montre pas de cliff net au `2026-03-01` ou au `2026-03-02`.
 
 En synthèse :
 
-- Ahrefs `www` est **en légère hausse en brut mois à mois**, mais **pas** une fois normalisé au jour
+- la comparaison `Ahrefs visitors` vs `GA4 totalUsers` exagère mécaniquement le gap
 - GA4 décroche **beaucoup plus** que les benchmarks externes
 - le meilleur diagnostic à ce stade est une **dégradation historique de mesure GA4 sur le trafic public `www`**, surtout sur `Organic`, `Direct` et `Referral`
 - je n'ai pas assez d'éléments pour l'attribuer avec certitude à un tag totalement cassé, à `app.ramify.fr`, ou à un unique déploiement précis
@@ -43,25 +38,7 @@ En synthèse :
 - Probe runtime live sur `/`, `/private-equity` et `/epargne/livret-a-plafond`
 - Comparaison de snapshots janvier / mars / avril sur quelques pages publiques ; les raw HTML crawlés conservent le markup `fs-consent`, mais pas de snippet historique GTM/GA exploitable pour prouver un changement de tagging
 
-## Constat 1 : `www` est le bon périmètre pour le SEO public
-
-En mars 2026, GSC par hostname donne :
-
-| Host | Clics |
-| --- | ---: |
-| `www.ramify.fr` | `40 071` |
-| `ramify.fr` | `200` |
-| autres hosts | ~`0` |
-
-Pour comparer le SEO entre outils, le bon périmètre est donc :
-
-- `GSC clicks on www`
-- `Ahrefs search`
-- `GA4 organic on www`
-
-Pas le property global GA4.
-
-## Constat 2 : GSC et Ahrefs `search` sont des benchmarks externes cohérents
+## Constat 1 : GSC et Ahrefs `search` sont des benchmarks externes cohérents
 
 En mars 2026 :
 
@@ -77,7 +54,7 @@ Conclusion :
 - Ahrefs `search` n'est pas hors-sol sur le SEO public
 - GSC et Ahrefs `search` peuvent servir de baseline externe pour évaluer si GA4 diverge trop
 
-## Constat 3 : le premier gros écart vient de la mauvaise équivalence métrique
+## Constat 2 : le premier gros écart vient de la mauvaise équivalence métrique
 
 Ahrefs :
 
@@ -103,41 +80,7 @@ Donc :
 - `Ahrefs visitors` vs `GA users` crée mécaniquement un gros gap
 - `Ahrefs visits` vs `GA sessions` est beaucoup plus propre
 
-## Constat 4 : même filtré sur `www`, la légère hausse Ahrefs brute est surtout un effet calendrier
-
-Le screenshot Ahrefs compare :
-
-- `1–28 Feb 2026`
-- `1–31 Mar 2026`
-
-Avec filtre `page_domain = www.ramify.fr` :
-
-| Période | Pageviews | Visitors | Visits |
-| --- | ---: | ---: | ---: |
-| février 2026 | `209 005` | `148 268` | `158 161` |
-| mars 2026 | `238 092` | `152 015` | `163 511` |
-
-En brut mois à mois, Ahrefs `www` montre donc bien une légère hausse :
-
-- `visitors` : `148 268 -> 152 015`
-- `visits` : `158 161 -> 163 511`
-
-Mais en moyenne par jour :
-
-| KPI | Février / jour | Mars / jour | Variation / jour |
-| --- | ---: | ---: | ---: |
-| Ahrefs `visitors` `www` | `5 295` | `4 904` | `-7,4 %` |
-| Ahrefs `visits` `www` | `5 649` | `5 274` | `-6,6 %` |
-
-Donc la contradiction utile n'est pas :
-
-- “Ahrefs monte, GA chute”
-
-Mais plutôt :
-
-- “Ahrefs `www` est légèrement up en brut, légèrement down par jour, et GA `www` baisse beaucoup plus”
-
-## Constat 5 : le paid ne mappe pas proprement entre Ahrefs et GA4
+## Constat 3 : le paid ne mappe pas proprement entre Ahrefs et GA4
 
 Février -> mars 2026 :
 
@@ -149,7 +92,7 @@ Conclusion :
 - `search/paid` Ahrefs n'est pas comparable 1:1 à un seul canal GA4
 - le total site peut diverger fortement juste à cause de cette différence de taxonomie
 
-## Constat 6 : sur `www`, GA4 diverge fortement des benchmarks externes
+## Constat 4 : sur `www`, GA4 diverge fortement des benchmarks externes
 
 Sur `www.ramify.fr`, février -> mars :
 
@@ -170,7 +113,7 @@ GA4 décroche beaucoup plus que GSC.
 
 Ce n'est pas juste un problème `users` vs `visitors`.
 
-## Constat 7 : ce n'est pas seulement quelques pages, le pattern existe sur un vrai volume
+## Constat 5 : ce n'est pas seulement quelques pages, le pattern existe sur un vrai volume
 
 J'ai comparé page par page :
 
@@ -197,7 +140,7 @@ Conclusion :
 - il existe un sous-ensemble important de pages où **GA se dégrade bien plus que GSC**
 - cela pointe vers une **sous-mesure GA4 sur le trafic public** au-delà de la seule variation observée dans GSC
 
-## Constat 8 : la dégradation ne ressemble pas à un seul jour de panne
+## Constat 6 : la dégradation ne ressemble pas à un seul jour de panne
 
 Sur le ratio `GA www google organic sessions / GSC www clicks` :
 
@@ -218,7 +161,7 @@ Donc je ne peux pas défendre un scénario du type :
 
 - “un tag est mort d'un coup le 2 mars”
 
-## Constat 8 bis : ce n'est pas juste un problème de reclassement `google / organic`
+## Constat 6 bis : ce n'est pas juste un problème de reclassement `google / organic`
 
 Sur plusieurs pages où GSC reste stable ou monte, la baisse n'est pas limitée à `google / organic`.
 
@@ -236,7 +179,7 @@ Conclusion :
 - sur une partie des pages publiques, GA4 mesure aussi moins de **landing sessions totales**
 - cela renforce la lecture “problème de mesure ou de sessionisation côté public site”
 
-## Constat 8 ter : l'écart existe aussi au niveau `page_view`, pas seulement au niveau `landing session`
+## Constat 6 ter : l'écart existe aussi au niveau `page_view`, pas seulement au niveau `landing session`
 
 J'ai repris le même sous-ensemble de grosses pages, mais en remplaçant :
 
@@ -282,7 +225,7 @@ Donc la dégradation commence :
 - avant mars
 - et au niveau `page_view` lui-même, pas seulement au niveau `session`
 
-## Constat 9 : le problème n'est pas limité à un seul navigateur
+## Constat 7 : le problème n'est pas limité à un seul navigateur
 
 Sur `www` tous canaux :
 
@@ -309,7 +252,7 @@ Nuance utile :
 - sur `www google / organic`, la baisse est un peu plus forte sur mobile (`40 544 -> 23 220`, `-42,7 %`) que sur desktop (`31 801 -> 21 463`, `-32,5 %`)
 - mais elle existe sur les deux, donc je ne la lis pas comme un bug mobile-only de CMP ou de bannière
 
-## Constat 10 : le live actuel n'est pas en panne
+## Constat 8 : le live actuel n'est pas en panne
 
 Le probe runtime actuel sur `www` montre :
 
@@ -327,7 +270,7 @@ Donc je ne vois pas aujourd'hui de bug fatal du type :
 
 - “les visiteurs consentis ne sont plus du tout trackés”
 
-## Constat 10 bis : le problème ne ressemble pas à une simple inflation de sessions en février
+## Constat 8 bis : le problème ne ressemble pas à une simple inflation de sessions en février
 
 Si février avait été principalement “gonflé” par une sessionisation anormale, on s'attendrait surtout à voir :
 
@@ -352,7 +295,7 @@ Cela ne prouve pas à lui seul un bug de tracking, mais ce pattern est **moins c
 - une baisse réelle de qualité / profondeur du trafic
 - et/ou une perte de mesure sur des hits ultérieurs dans le parcours
 
-## Constat 11 : `app.` n'est pas le meilleur suspect
+## Constat 9 : `app.` n'est pas le meilleur suspect
 
 L'app charge :
 
