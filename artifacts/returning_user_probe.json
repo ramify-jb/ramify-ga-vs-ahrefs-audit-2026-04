@@ -1,0 +1,755 @@
+{
+  "acceptedCookies": [
+    {
+      "name": "fs-consent",
+      "value": "[REDACTED]"
+    },
+    {
+      "name": "fs-consent-analytics_storage",
+      "value": "true"
+    },
+    {
+      "name": "fs-consent-ad_storage",
+      "value": "true"
+    },
+    {
+      "name": "_ga",
+      "value": "[REDACTED]"
+    },
+    {
+      "name": "_ga_FRCF1F3YBQ",
+      "value": "[REDACTED]"
+    },
+    {
+      "name": "fs-consent-updated",
+      "value": "true"
+    }
+  ],
+  "anonymousResults": [
+    {
+      "mode": "anonymous",
+      "url": "https://www.ramify.fr/",
+      "state": {
+        "href": "https://www.ramify.fr/",
+        "title": "Ramify : L'alternative digitale à la banque privée",
+        "cookie_names": [
+          "first_page",
+          "fs-consent-ad_personalization",
+          "fs-consent-ad_storage",
+          "fs-consent-ad_user_data",
+          "fs-consent-analytics_storage",
+          "fs-consent-functionality_storage",
+          "fs-consent-personalization_storage",
+          "fs-consent-security_storage",
+          "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog"
+        ],
+        "ics": {
+          "ad_storage": {
+            "default": false,
+            "update": false,
+            "implicit": true,
+            "quiet": false
+          },
+          "analytics_storage": {
+            "default": false,
+            "update": false,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_user_data": {
+            "default": false,
+            "update": false,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_personalization": {
+            "default": false,
+            "update": false,
+            "implicit": false,
+            "quiet": false
+          },
+          "functionality_storage": {
+            "default": false,
+            "update": false,
+            "quiet": false
+          },
+          "personalization_storage": {
+            "default": false,
+            "update": false,
+            "quiet": false
+          },
+          "security_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          }
+        }
+      },
+      "requests": [
+        {
+          "kind": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "ahrefs",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "ads_ccm",
+          "host": "pagead2.googlesyndication.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "tid": "AW-10926834538",
+            "en": "page_view",
+            "gcs": "G100"
+          }
+        },
+        {
+          "kind": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        }
+      ]
+    },
+    {
+      "mode": "anonymous",
+      "url": "https://www.ramify.fr/private-equity",
+      "state": {
+        "href": "https://www.ramify.fr/private-equity",
+        "title": "Private Equity : Définition et Comment investir ? (capital investissement, c'est quoi, qu'est-ce que le)",
+        "cookie_names": [
+          "first_page",
+          "fs-consent-ad_personalization",
+          "fs-consent-ad_storage",
+          "fs-consent-ad_user_data",
+          "fs-consent-analytics_storage",
+          "fs-consent-functionality_storage",
+          "fs-consent-personalization_storage",
+          "fs-consent-security_storage",
+          "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog"
+        ],
+        "ics": {
+          "ad_storage": {
+            "default": false,
+            "update": false,
+            "implicit": true,
+            "quiet": false
+          },
+          "analytics_storage": {
+            "default": false,
+            "update": false,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_user_data": {
+            "default": false,
+            "update": false,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_personalization": {
+            "default": false,
+            "update": false,
+            "implicit": false,
+            "quiet": false
+          },
+          "functionality_storage": {
+            "default": false,
+            "update": false,
+            "quiet": false
+          },
+          "personalization_storage": {
+            "default": false,
+            "update": false,
+            "quiet": false
+          },
+          "security_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          }
+        }
+      },
+      "requests": [
+        {
+          "kind": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "ahrefs",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        },
+        {
+          "kind": "ads_ccm",
+          "host": "pagead2.googlesyndication.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "tid": "AW-10926834538",
+            "en": "page_view",
+            "gcs": "G100"
+          }
+        }
+      ]
+    },
+    {
+      "mode": "anonymous",
+      "url": "https://www.ramify.fr/epargne/livret-a-plafond",
+      "state": {
+        "href": "https://www.ramify.fr/epargne/livret-a-plafond",
+        "title": "Plafond Livret A atteint : que faire et où placer son argent quand il est plein ? (montant maximum, intérêts, combien rapporte, rempli, 2026, max)",
+        "cookie_names": [
+          "first_page",
+          "fs-consent-ad_personalization",
+          "fs-consent-ad_storage",
+          "fs-consent-ad_user_data",
+          "fs-consent-analytics_storage",
+          "fs-consent-functionality_storage",
+          "fs-consent-personalization_storage",
+          "fs-consent-security_storage",
+          "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog"
+        ],
+        "ics": {
+          "ad_storage": {
+            "default": false,
+            "update": false,
+            "implicit": true,
+            "quiet": false
+          },
+          "analytics_storage": {
+            "default": false,
+            "update": false,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_user_data": {
+            "default": false,
+            "update": false,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_personalization": {
+            "default": false,
+            "update": false,
+            "implicit": false,
+            "quiet": false
+          },
+          "functionality_storage": {
+            "default": false,
+            "update": false,
+            "quiet": false
+          },
+          "personalization_storage": {
+            "default": false,
+            "update": false,
+            "quiet": false
+          },
+          "security_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          }
+        }
+      },
+      "requests": [
+        {
+          "kind": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "ahrefs",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        },
+        {
+          "kind": "ads_ccm",
+          "host": "pagead2.googlesyndication.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "tid": "AW-10926834538",
+            "en": "page_view",
+            "gcs": "G100"
+          }
+        }
+      ]
+    }
+  ],
+  "acceptedResults": [
+    {
+      "mode": "accepted_returning",
+      "url": "https://www.ramify.fr/",
+      "state": {
+        "href": "https://www.ramify.fr/",
+        "title": "Ramify : L'alternative digitale à la banque privée",
+        "cookie_names": [
+          "__hssc",
+          "__hssrc",
+          "__hstc",
+          "_clck",
+          "_clsk",
+          "_fbp",
+          "_ga",
+          "_ga_FRCF1F3YBQ",
+          "_gcl_au",
+          "first_page",
+          "fs-consent",
+          "fs-consent-ad_personalization",
+          "fs-consent-ad_storage",
+          "fs-consent-ad_user_data",
+          "fs-consent-analytics_storage",
+          "fs-consent-functionality_storage",
+          "fs-consent-personalization_storage",
+          "fs-consent-security_storage",
+          "fs-consent-updated",
+          "hubspotutk",
+          "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog",
+          "utm_source"
+        ],
+        "ics": {
+          "ad_storage": {
+            "default": true,
+            "update": true,
+            "implicit": true,
+            "quiet": false
+          },
+          "analytics_storage": {
+            "default": true,
+            "update": true,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_user_data": {
+            "default": true,
+            "update": true,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_personalization": {
+            "default": true,
+            "update": true,
+            "implicit": false,
+            "quiet": false
+          },
+          "functionality_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          },
+          "personalization_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          },
+          "security_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          }
+        }
+      },
+      "requests": [
+        {
+          "kind": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "ahrefs",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "google_ccm",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "en": "page_view",
+            "gcs": "G111"
+          }
+        },
+        {
+          "kind": "google_ccm",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "tid": "AW-10926834538",
+            "en": "page_view",
+            "gcs": "G111"
+          }
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "google_ccm",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "tid": "AW-10926834538",
+            "en": "page_view",
+            "gcs": "G111"
+          }
+        }
+      ]
+    },
+    {
+      "mode": "accepted_returning",
+      "url": "https://www.ramify.fr/private-equity",
+      "state": {
+        "href": "https://www.ramify.fr/private-equity",
+        "title": "Private Equity : Définition et Comment investir ? (capital investissement, c'est quoi, qu'est-ce que le)",
+        "cookie_names": [
+          "__hssc",
+          "__hssrc",
+          "__hstc",
+          "_clck",
+          "_clsk",
+          "_fbp",
+          "_ga",
+          "_ga_FRCF1F3YBQ",
+          "_gcl_au",
+          "first_page",
+          "fs-consent",
+          "fs-consent-ad_personalization",
+          "fs-consent-ad_storage",
+          "fs-consent-ad_user_data",
+          "fs-consent-analytics_storage",
+          "fs-consent-functionality_storage",
+          "fs-consent-personalization_storage",
+          "fs-consent-security_storage",
+          "fs-consent-updated",
+          "hubspotutk",
+          "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog",
+          "utm_source"
+        ],
+        "ics": {
+          "ad_storage": {
+            "default": true,
+            "update": true,
+            "implicit": true,
+            "quiet": false
+          },
+          "analytics_storage": {
+            "default": true,
+            "update": true,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_user_data": {
+            "default": true,
+            "update": true,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_personalization": {
+            "default": true,
+            "update": true,
+            "implicit": false,
+            "quiet": false
+          },
+          "functionality_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          },
+          "personalization_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          },
+          "security_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          }
+        }
+      },
+      "requests": [
+        {
+          "kind": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "ahrefs",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "google_ccm",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "en": "page_view",
+            "gcs": "G111"
+          }
+        },
+        {
+          "kind": "google_ccm",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "tid": "AW-10926834538",
+            "en": "page_view",
+            "gcs": "G111"
+          }
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "google_ccm",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "tid": "AW-10926834538",
+            "en": "page_view",
+            "gcs": "G111"
+          }
+        }
+      ]
+    },
+    {
+      "mode": "accepted_returning",
+      "url": "https://www.ramify.fr/epargne/livret-a-plafond",
+      "state": {
+        "href": "https://www.ramify.fr/epargne/livret-a-plafond",
+        "title": "Plafond Livret A atteint : que faire et où placer son argent quand il est plein ? (montant maximum, intérêts, combien rapporte, rempli, 2026, max)",
+        "cookie_names": [
+          "__hssc",
+          "__hssrc",
+          "__hstc",
+          "_clck",
+          "_clsk",
+          "_fbp",
+          "_ga",
+          "_ga_FRCF1F3YBQ",
+          "_gcl_au",
+          "first_page",
+          "fs-consent",
+          "fs-consent-ad_personalization",
+          "fs-consent-ad_storage",
+          "fs-consent-ad_user_data",
+          "fs-consent-analytics_storage",
+          "fs-consent-functionality_storage",
+          "fs-consent-personalization_storage",
+          "fs-consent-security_storage",
+          "fs-consent-updated",
+          "hubspotutk",
+          "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog",
+          "utm_source"
+        ],
+        "ics": {
+          "ad_storage": {
+            "default": true,
+            "update": true,
+            "implicit": true,
+            "quiet": false
+          },
+          "analytics_storage": {
+            "default": true,
+            "update": true,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_user_data": {
+            "default": true,
+            "update": true,
+            "implicit": true,
+            "quiet": false
+          },
+          "ad_personalization": {
+            "default": true,
+            "update": true,
+            "implicit": false,
+            "quiet": false
+          },
+          "functionality_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          },
+          "personalization_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          },
+          "security_storage": {
+            "default": true,
+            "update": true,
+            "quiet": false
+          }
+        }
+      },
+      "requests": [
+        {
+          "kind": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "ahrefs",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "google_ccm",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "en": "page_view",
+            "gcs": "G111"
+          }
+        },
+        {
+          "kind": "google_ccm",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "tid": "AW-10926834538",
+            "en": "page_view",
+            "gcs": "G111"
+          }
+        },
+        {
+          "kind": "gtag_js",
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "query_summary": {}
+        },
+        {
+          "kind": "google_ccm",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "query_summary": {
+            "tid": "AW-10926834538",
+            "en": "page_view",
+            "gcs": "G111"
+          }
+        }
+      ]
+    }
+  ]
+}

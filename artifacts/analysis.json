@@ -1,0 +1,1290 @@
+[
+  {
+    "month": "2025-07",
+    "ga": {
+      "overall": {
+        "totalUsers": 81954,
+        "activeUsers": 80978,
+        "sessions": 104248,
+        "screenPageViews": 199284,
+        "engagedSessions": 43337
+      },
+      "channels": {
+        "Organic Search": {
+          "sessions": 53723,
+          "totalUsers": 43594
+        },
+        "Direct": {
+          "sessions": 20420,
+          "totalUsers": 17243
+        },
+        "Cross-network": {
+          "sessions": 10471,
+          "totalUsers": 8816
+        },
+        "Paid Search": {
+          "sessions": 7611,
+          "totalUsers": 6514
+        },
+        "Referral": {
+          "sessions": 4392,
+          "totalUsers": 3717
+        },
+        "Unassigned": {
+          "sessions": 3487,
+          "totalUsers": 3061
+        },
+        "Email": {
+          "sessions": 646,
+          "totalUsers": 510
+        },
+        "Paid Social": {
+          "sessions": 585,
+          "totalUsers": 558
+        },
+        "Organic Social": {
+          "sessions": 277,
+          "totalUsers": 212
+        },
+        "Paid Other": {
+          "sessions": 89,
+          "totalUsers": 81
+        },
+        "Organic Video": {
+          "sessions": 8,
+          "totalUsers": 8
+        }
+      },
+      "hosts": {
+        "www.ramify.fr": {
+          "sessions": 98103,
+          "totalUsers": 79029
+        },
+        "app.ramify.fr": {
+          "sessions": 6066,
+          "totalUsers": 4874
+        },
+        "explore.ramify.fr": {
+          "sessions": 3638,
+          "totalUsers": 2866
+        },
+        "calendly.com": {
+          "sessions": 1365,
+          "totalUsers": 1011
+        },
+        "form.typeform.com": {
+          "sessions": 100,
+          "totalUsers": 81
+        },
+        "ramify-digidop.webflow.io": {
+          "sessions": 28,
+          "totalUsers": 16
+        },
+        "dev-ramify.webflow.io": {
+          "sessions": 11,
+          "totalUsers": 11
+        },
+        "www.investissements-faciles.com": {
+          "sessions": 1,
+          "totalUsers": 1
+        }
+      }
+    },
+    "gsc": {
+      "clicks_total": 50050,
+      "clicks_by_host": {
+        "www.ramify.fr": 49701,
+        "ramify.fr": 348,
+        "status.ramify.fr": 1
+      }
+    },
+    "ahrefs": {
+      "visitors": 85240,
+      "visits": 91603,
+      "pageviews": 125456,
+      "channels": {
+        "search": 48168,
+        "search/paid": 16293,
+        "direct": 11903,
+        "internal": 4076,
+        "referral": 2579,
+        "unknown": 1243,
+        "paid": 588,
+        "social/paid": 553,
+        "social": 389,
+        "llm": 372,
+        "email": 280
+      }
+    }
+  },
+  {
+    "month": "2025-08",
+    "ga": {
+      "overall": {
+        "totalUsers": 87454,
+        "activeUsers": 86439,
+        "sessions": 107158,
+        "screenPageViews": 213309,
+        "engagedSessions": 46470
+      },
+      "channels": {
+        "Organic Search": {
+          "sessions": 51784,
+          "totalUsers": 42397
+        },
+        "Direct": {
+          "sessions": 21556,
+          "totalUsers": 18490
+        },
+        "Cross-network": {
+          "sessions": 19939,
+          "totalUsers": 17287
+        },
+        "Paid Search": {
+          "sessions": 4191,
+          "totalUsers": 3519
+        },
+        "Unassigned": {
+          "sessions": 4128,
+          "totalUsers": 3530
+        },
+        "Referral": {
+          "sessions": 3917,
+          "totalUsers": 3173
+        },
+        "Email": {
+          "sessions": 809,
+          "totalUsers": 550
+        },
+        "Paid Social": {
+          "sessions": 744,
+          "totalUsers": 702
+        },
+        "Organic Social": {
+          "sessions": 157,
+          "totalUsers": 125
+        },
+        "Paid Other": {
+          "sessions": 30,
+          "totalUsers": 28
+        },
+        "Organic Video": {
+          "sessions": 7,
+          "totalUsers": 7
+        }
+      },
+      "hosts": {
+        "www.ramify.fr": {
+          "sessions": 101941,
+          "totalUsers": 83972
+        },
+        "app.ramify.fr": {
+          "sessions": 6660,
+          "totalUsers": 5388
+        },
+        "explore.ramify.fr": {
+          "sessions": 3213,
+          "totalUsers": 2605
+        },
+        "calendly.com": {
+          "sessions": 1576,
+          "totalUsers": 1206
+        },
+        "form.typeform.com": {
+          "sessions": 81,
+          "totalUsers": 60
+        },
+        "ramify-digidop.webflow.io": {
+          "sessions": 38,
+          "totalUsers": 29
+        },
+        "dev-ramify.webflow.io": {
+          "sessions": 17,
+          "totalUsers": 17
+        },
+        "www-ramify-fr.translate.goog": {
+          "sessions": 5,
+          "totalUsers": 5
+        },
+        "investissements-faciles.com": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "ramify.fr": {
+          "sessions": 0,
+          "totalUsers": 71
+        }
+      }
+    },
+    "gsc": {
+      "clicks_total": 47835,
+      "clicks_by_host": {
+        "www.ramify.fr": 47687,
+        "ramify.fr": 148,
+        "status.ramify.fr": 0
+      }
+    },
+    "ahrefs": {
+      "visitors": 104064,
+      "visits": 115232,
+      "pageviews": 270018,
+      "channels": {
+        "search": 46043,
+        "direct": 23495,
+        "search/paid": 22467,
+        "internal": 7896,
+        "unknown": 1985,
+        "referral": 1928,
+        "email": 838,
+        "social/paid": 689,
+        "social": 422,
+        "llm": 347,
+        "paid": 340
+      }
+    }
+  },
+  {
+    "month": "2025-09",
+    "ga": {
+      "overall": {
+        "totalUsers": 97585,
+        "activeUsers": 96343,
+        "sessions": 119220,
+        "screenPageViews": 234276,
+        "engagedSessions": 49963
+      },
+      "channels": {
+        "Organic Search": {
+          "sessions": 54727,
+          "totalUsers": 44718
+        },
+        "Cross-network": {
+          "sessions": 26532,
+          "totalUsers": 23281
+        },
+        "Direct": {
+          "sessions": 22297,
+          "totalUsers": 19617
+        },
+        "Referral": {
+          "sessions": 6452,
+          "totalUsers": 5295
+        },
+        "Unassigned": {
+          "sessions": 4391,
+          "totalUsers": 3780
+        },
+        "Paid Search": {
+          "sessions": 3235,
+          "totalUsers": 2770
+        },
+        "Email": {
+          "sessions": 1011,
+          "totalUsers": 752
+        },
+        "Paid Social": {
+          "sessions": 509,
+          "totalUsers": 472
+        },
+        "Organic Social": {
+          "sessions": 270,
+          "totalUsers": 223
+        },
+        "Paid Other": {
+          "sessions": 33,
+          "totalUsers": 31
+        },
+        "Organic Video": {
+          "sessions": 7,
+          "totalUsers": 6
+        }
+      },
+      "hosts": {
+        "www.ramify.fr": {
+          "sessions": 113309,
+          "totalUsers": 94188
+        },
+        "app.ramify.fr": {
+          "sessions": 6625,
+          "totalUsers": 5435
+        },
+        "explore.ramify.fr": {
+          "sessions": 2167,
+          "totalUsers": 1789
+        },
+        "calendly.com": {
+          "sessions": 1767,
+          "totalUsers": 1346
+        },
+        "form.typeform.com": {
+          "sessions": 86,
+          "totalUsers": 66
+        },
+        "ramify-digidop.webflow.io": {
+          "sessions": 30,
+          "totalUsers": 23
+        },
+        "dev-ramify.webflow.io": {
+          "sessions": 13,
+          "totalUsers": 13
+        },
+        "bit.ly": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "dashboard-paulmonnery-ramify.vercel.app": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "share.google": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "substack.com": {
+          "sessions": 1,
+          "totalUsers": 1
+        }
+      }
+    },
+    "gsc": {
+      "clicks_total": 51775,
+      "clicks_by_host": {
+        "www.ramify.fr": 51612,
+        "ramify.fr": 163,
+        "status.ramify.fr": 0
+      }
+    },
+    "ahrefs": {
+      "visitors": 140384,
+      "visits": 156615,
+      "pageviews": 456807,
+      "channels": {
+        "search": 50428,
+        "direct": 41547,
+        "search/paid": 28268,
+        "internal": 13238,
+        "referral": 3055,
+        "unknown": 2509,
+        "email": 2404,
+        "social": 677,
+        "llm": 495,
+        "paid": 479,
+        "social/paid": 478
+      }
+    }
+  },
+  {
+    "month": "2025-10",
+    "ga": {
+      "overall": {
+        "totalUsers": 112307,
+        "activeUsers": 110921,
+        "sessions": 136952,
+        "screenPageViews": 271745,
+        "engagedSessions": 59293
+      },
+      "channels": {
+        "Organic Search": {
+          "sessions": 65058,
+          "totalUsers": 53325
+        },
+        "Cross-network": {
+          "sessions": 32443,
+          "totalUsers": 27473
+        },
+        "Direct": {
+          "sessions": 23467,
+          "totalUsers": 21163
+        },
+        "Referral": {
+          "sessions": 6329,
+          "totalUsers": 4970
+        },
+        "Unassigned": {
+          "sessions": 6186,
+          "totalUsers": 5295
+        },
+        "Paid Search": {
+          "sessions": 3741,
+          "totalUsers": 3281
+        },
+        "Email": {
+          "sessions": 673,
+          "totalUsers": 447
+        },
+        "Paid Social": {
+          "sessions": 442,
+          "totalUsers": 416
+        },
+        "Organic Social": {
+          "sessions": 182,
+          "totalUsers": 155
+        },
+        "Paid Other": {
+          "sessions": 33,
+          "totalUsers": 28
+        },
+        "Affiliates": {
+          "sessions": 17,
+          "totalUsers": 17
+        },
+        "Organic Video": {
+          "sessions": 2,
+          "totalUsers": 2
+        }
+      },
+      "hosts": {
+        "www.ramify.fr": {
+          "sessions": 131658,
+          "totalUsers": 108761
+        },
+        "app.ramify.fr": {
+          "sessions": 7075,
+          "totalUsers": 5958
+        },
+        "explore.ramify.fr": {
+          "sessions": 2135,
+          "totalUsers": 1709
+        },
+        "calendly.com": {
+          "sessions": 1958,
+          "totalUsers": 1500
+        },
+        "form.typeform.com": {
+          "sessions": 75,
+          "totalUsers": 63
+        },
+        "ramify-digidop.webflow.io": {
+          "sessions": 54,
+          "totalUsers": 26
+        },
+        "ramify.fr": {
+          "sessions": 24,
+          "totalUsers": 24
+        },
+        "dev-ramify.webflow.io": {
+          "sessions": 7,
+          "totalUsers": 7
+        },
+        "www.moneyvox.fr": {
+          "sessions": 2,
+          "totalUsers": 2
+        },
+        "avenuedesinvestisseurs.fr": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "bit.ly": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "d2-z-b04.eu1.hubspotlinks.com": {
+          "sessions": 1,
+          "totalUsers": 1
+        }
+      }
+    },
+    "gsc": {
+      "clicks_total": 61896,
+      "clicks_by_host": {
+        "www.ramify.fr": 61723,
+        "ramify.fr": 172,
+        "status.ramify.fr": 1
+      }
+    },
+    "ahrefs": {
+      "visitors": 165236,
+      "visits": 186733,
+      "pageviews": 521819,
+      "channels": {
+        "search": 59894,
+        "direct": 49232,
+        "search/paid": 34415,
+        "internal": 14833,
+        "unknown": 3192,
+        "referral": 3059,
+        "email": 2466,
+        "llm": 591,
+        "social/paid": 444,
+        "social": 261,
+        "paid": 185,
+        "affiliate": 18
+      }
+    }
+  },
+  {
+    "month": "2025-11",
+    "ga": {
+      "overall": {
+        "totalUsers": 185703,
+        "activeUsers": 184432,
+        "sessions": 224626,
+        "screenPageViews": 456405,
+        "engagedSessions": 109917
+      },
+      "channels": {
+        "Organic Search": {
+          "sessions": 90901,
+          "totalUsers": 74411
+        },
+        "Cross-network": {
+          "sessions": 78601,
+          "totalUsers": 66832
+        },
+        "Direct": {
+          "sessions": 32976,
+          "totalUsers": 28403
+        },
+        "Referral": {
+          "sessions": 7006,
+          "totalUsers": 5864
+        },
+        "Unassigned": {
+          "sessions": 6594,
+          "totalUsers": 5162
+        },
+        "Paid Search": {
+          "sessions": 6185,
+          "totalUsers": 5510
+        },
+        "Email": {
+          "sessions": 3564,
+          "totalUsers": 2689
+        },
+        "Paid Social": {
+          "sessions": 565,
+          "totalUsers": 493
+        },
+        "Organic Social": {
+          "sessions": 395,
+          "totalUsers": 375
+        },
+        "Paid Other": {
+          "sessions": 100,
+          "totalUsers": 88
+        },
+        "Organic Video": {
+          "sessions": 5,
+          "totalUsers": 3
+        },
+        "Affiliates": {
+          "sessions": 1,
+          "totalUsers": 1
+        }
+      },
+      "hosts": {
+        "www.ramify.fr": {
+          "sessions": 200427,
+          "totalUsers": 165211
+        },
+        "app.ramify.fr": {
+          "sessions": 29267,
+          "totalUsers": 22945
+        },
+        "app.livestorm.co": {
+          "sessions": 2018,
+          "totalUsers": 1709
+        },
+        "explore.ramify.fr": {
+          "sessions": 1652,
+          "totalUsers": 1371
+        },
+        "calendly.com": {
+          "sessions": 1315,
+          "totalUsers": 964
+        },
+        "ramify.fr": {
+          "sessions": 67,
+          "totalUsers": 67
+        },
+        "ramify-digidop.webflow.io": {
+          "sessions": 49,
+          "totalUsers": 36
+        },
+        "form.typeform.com": {
+          "sessions": 31,
+          "totalUsers": 26
+        },
+        "dev-ramify.webflow.io": {
+          "sessions": 22,
+          "totalUsers": 21
+        },
+        "www-ramify-fr.translate.goog": {
+          "sessions": 22,
+          "totalUsers": 16
+        },
+        "bit.ly": {
+          "sessions": 3,
+          "totalUsers": 1
+        },
+        "dashboard-g5u01pbzc-ramify.vercel.app": {
+          "sessions": 2,
+          "totalUsers": 0
+        },
+        "finance-heros.fr": {
+          "sessions": 2,
+          "totalUsers": 1
+        },
+        "investissements-faciles.com": {
+          "sessions": 2,
+          "totalUsers": 1
+        },
+        "wave.webaim.org": {
+          "sessions": 1,
+          "totalUsers": 1
+        }
+      }
+    },
+    "gsc": {
+      "clicks_total": 62033,
+      "clicks_by_host": {
+        "www.ramify.fr": 61906,
+        "ramify.fr": 126,
+        "status.ramify.fr": 1
+      }
+    },
+    "ahrefs": {
+      "visitors": 183647,
+      "visits": 206174,
+      "pageviews": 514160,
+      "channels": {
+        "search": 59765,
+        "search/paid": 58270,
+        "direct": 47605,
+        "internal": 14190,
+        "unknown": 2790,
+        "referral": 2385,
+        "email": 2379,
+        "llm": 606,
+        "social/paid": 433,
+        "paid": 384,
+        "social": 252,
+        "affiliate": 1
+      }
+    }
+  },
+  {
+    "month": "2025-12",
+    "ga": {
+      "overall": {
+        "totalUsers": 216133,
+        "activeUsers": 214300,
+        "sessions": 273661,
+        "screenPageViews": 753735,
+        "engagedSessions": 160146
+      },
+      "channels": {
+        "Organic Search": {
+          "sessions": 107527,
+          "totalUsers": 85816
+        },
+        "Cross-network": {
+          "sessions": 93483,
+          "totalUsers": 77459
+        },
+        "Direct": {
+          "sessions": 38814,
+          "totalUsers": 32261
+        },
+        "Referral": {
+          "sessions": 11616,
+          "totalUsers": 9190
+        },
+        "Unassigned": {
+          "sessions": 9421,
+          "totalUsers": 6952
+        },
+        "Paid Search": {
+          "sessions": 8423,
+          "totalUsers": 7283
+        },
+        "Email": {
+          "sessions": 2140,
+          "totalUsers": 1589
+        },
+        "Paid Social": {
+          "sessions": 856,
+          "totalUsers": 749
+        },
+        "Affiliates": {
+          "sessions": 244,
+          "totalUsers": 223
+        },
+        "Organic Social": {
+          "sessions": 188,
+          "totalUsers": 173
+        },
+        "Organic Shopping": {
+          "sessions": 124,
+          "totalUsers": 99
+        },
+        "Paid Other": {
+          "sessions": 102,
+          "totalUsers": 86
+        },
+        "Organic Video": {
+          "sessions": 11,
+          "totalUsers": 9
+        }
+      },
+      "hosts": {
+        "www.ramify.fr": {
+          "sessions": 191769,
+          "totalUsers": 160982
+        },
+        "app.ramify.fr": {
+          "sessions": 83320,
+          "totalUsers": 55415
+        },
+        "calendly.com": {
+          "sessions": 1574,
+          "totalUsers": 1180
+        },
+        "explore.ramify.fr": {
+          "sessions": 1097,
+          "totalUsers": 926
+        },
+        "app.livestorm.co": {
+          "sessions": 521,
+          "totalUsers": 437
+        },
+        "ramify-digidop.webflow.io": {
+          "sessions": 118,
+          "totalUsers": 71
+        },
+        "form.typeform.com": {
+          "sessions": 57,
+          "totalUsers": 47
+        },
+        "ramify.fr": {
+          "sessions": 30,
+          "totalUsers": 30
+        },
+        "dev-ramify.webflow.io": {
+          "sessions": 14,
+          "totalUsers": 14
+        },
+        "ramify-production-app.netlify.app": {
+          "sessions": 14,
+          "totalUsers": 0
+        },
+        "finance-heros.fr": {
+          "sessions": 1,
+          "totalUsers": 1
+        }
+      }
+    },
+    "gsc": {
+      "clicks_total": 58680,
+      "clicks_by_host": {
+        "www.ramify.fr": 58515,
+        "ramify.fr": 165,
+        "status.ramify.fr": 0
+      }
+    },
+    "ahrefs": {
+      "visitors": 192080,
+      "visits": 213067,
+      "pageviews": 559437,
+      "channels": {
+        "search": 57143,
+        "search/paid": 56061,
+        "direct": 54433,
+        "internal": 15549,
+        "referral": 4099,
+        "unknown": 3239,
+        "email": 2796,
+        "llm": 781,
+        "social/paid": 495,
+        "social": 252,
+        "paid": 127,
+        "affiliate": 117,
+        "shopping/organic": 2
+      }
+    }
+  },
+  {
+    "month": "2026-01",
+    "ga": {
+      "overall": {
+        "totalUsers": 274854,
+        "activeUsers": 272827,
+        "sessions": 360408,
+        "screenPageViews": 848539,
+        "engagedSessions": 231036
+      },
+      "channels": {
+        "Organic Search": {
+          "sessions": 135037,
+          "totalUsers": 101179
+        },
+        "Cross-network": {
+          "sessions": 126764,
+          "totalUsers": 102735
+        },
+        "Direct": {
+          "sessions": 51085,
+          "totalUsers": 41485
+        },
+        "Referral": {
+          "sessions": 14628,
+          "totalUsers": 12026
+        },
+        "Unassigned": {
+          "sessions": 10493,
+          "totalUsers": 7562
+        },
+        "Paid Search": {
+          "sessions": 10470,
+          "totalUsers": 8772
+        },
+        "Email": {
+          "sessions": 3282,
+          "totalUsers": 2608
+        },
+        "Paid Social": {
+          "sessions": 921,
+          "totalUsers": 768
+        },
+        "Organic Social": {
+          "sessions": 800,
+          "totalUsers": 682
+        },
+        "Affiliates": {
+          "sessions": 443,
+          "totalUsers": 377
+        },
+        "Paid Other": {
+          "sessions": 78,
+          "totalUsers": 67
+        },
+        "Organic Video": {
+          "sessions": 37,
+          "totalUsers": 7
+        }
+      },
+      "hosts": {
+        "www.ramify.fr": {
+          "sessions": 284480,
+          "totalUsers": 226163
+        },
+        "app.ramify.fr": {
+          "sessions": 74970,
+          "totalUsers": 49746
+        },
+        "app.livestorm.co": {
+          "sessions": 2606,
+          "totalUsers": 2269
+        },
+        "explore.ramify.fr": {
+          "sessions": 2409,
+          "totalUsers": 1941
+        },
+        "calendly.com": {
+          "sessions": 1456,
+          "totalUsers": 1064
+        },
+        "ramify-digidop.webflow.io": {
+          "sessions": 336,
+          "totalUsers": 193
+        },
+        "ramify.fr": {
+          "sessions": 250,
+          "totalUsers": 248
+        },
+        "form.typeform.com": {
+          "sessions": 77,
+          "totalUsers": 60
+        },
+        "dev-ramify.webflow.io": {
+          "sessions": 25,
+          "totalUsers": 9
+        },
+        "ramify-production-app.netlify.app": {
+          "sessions": 7,
+          "totalUsers": 0
+        },
+        "finance-heros.fr": {
+          "sessions": 3,
+          "totalUsers": 2
+        },
+        "ramify-digidop.canvas.webflow.com": {
+          "sessions": 3,
+          "totalUsers": 0
+        },
+        "redirect.viglink.com": {
+          "sessions": 2,
+          "totalUsers": 1
+        }
+      }
+    },
+    "gsc": {
+      "clicks_total": 67995,
+      "clicks_by_host": {
+        "www.ramify.fr": 67786,
+        "ramify.fr": 208,
+        "status.ramify.fr": 1
+      }
+    },
+    "ahrefs": {
+      "visitors": 227822,
+      "visits": 255246,
+      "pageviews": 612352,
+      "channels": {
+        "search/paid": 71304,
+        "search": 66978,
+        "direct": 62914,
+        "internal": 17866,
+        "referral": 4226,
+        "unknown": 3746,
+        "email": 2674,
+        "paid": 1970,
+        "llm": 946,
+        "social": 656,
+        "social/paid": 527,
+        "affiliate": 206
+      }
+    }
+  },
+  {
+    "month": "2026-02",
+    "ga": {
+      "overall": {
+        "totalUsers": 227116,
+        "activeUsers": 226375,
+        "sessions": 304610,
+        "screenPageViews": 759339,
+        "engagedSessions": 213550
+      },
+      "channels": {
+        "Cross-network": {
+          "sessions": 130396,
+          "totalUsers": 100380
+        },
+        "Organic Search": {
+          "sessions": 103314,
+          "totalUsers": 73780
+        },
+        "Direct": {
+          "sessions": 37284,
+          "totalUsers": 29783
+        },
+        "Referral": {
+          "sessions": 13147,
+          "totalUsers": 10068
+        },
+        "Unassigned": {
+          "sessions": 7362,
+          "totalUsers": 5373
+        },
+        "Paid Search": {
+          "sessions": 5522,
+          "totalUsers": 4384
+        },
+        "Email": {
+          "sessions": 4073,
+          "totalUsers": 3130
+        },
+        "Organic Social": {
+          "sessions": 800,
+          "totalUsers": 615
+        },
+        "Affiliates": {
+          "sessions": 123,
+          "totalUsers": 110
+        },
+        "Paid Other": {
+          "sessions": 112,
+          "totalUsers": 94
+        },
+        "Organic Video": {
+          "sessions": 107,
+          "totalUsers": 23
+        },
+        "Paid Social": {
+          "sessions": 71,
+          "totalUsers": 18
+        }
+      },
+      "hosts": {
+        "www.ramify.fr": {
+          "sessions": 225241,
+          "totalUsers": 177058
+        },
+        "app.ramify.fr": {
+          "sessions": 80681,
+          "totalUsers": 54490
+        },
+        "explore.ramify.fr": {
+          "sessions": 1828,
+          "totalUsers": 1464
+        },
+        "app.livestorm.co": {
+          "sessions": 1805,
+          "totalUsers": 1460
+        },
+        "calendly.com": {
+          "sessions": 1350,
+          "totalUsers": 1030
+        },
+        "ramify.fr": {
+          "sessions": 187,
+          "totalUsers": 162
+        },
+        "form.typeform.com": {
+          "sessions": 59,
+          "totalUsers": 49
+        },
+        "ramify-digidop.webflow.io": {
+          "sessions": 55,
+          "totalUsers": 18
+        },
+        "dev-ramify.webflow.io": {
+          "sessions": 18,
+          "totalUsers": 9
+        },
+        "finance-heros.fr": {
+          "sessions": 3,
+          "totalUsers": 1
+        },
+        "": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "4w17cmy5nktpluj8zah3uwr3suymmoicbez5mwkk9.oastify.com": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "5kq80nm6blhq9v79nb54ixf4gvmnap6dw1noem2b.oastify.com": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "hrck7ztiixo2g7eluncgp9mgn7tzh1hparyil9jx8.oastify.com": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "investissements-faciles.com": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "m1oph43ns2y7qcoq4smlzewlxc34r6ruhi85z3ns.oastify.com": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "nsjq85uoj3p8hdfrvtdmqfnmodu5i7ivbj26t4ht.oastify.com": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "pakmcqs.com": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "qozthskswqjajurpeehazda": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "ramify-digidop.canvas.webflow.com": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "ramify-production-app.netlify.app": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "rvqub9xsm7sckhivyxgqtjqqrhx9lbhzan1as8gx.oastify.com": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "www-ramify-fr.translate.goog": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "www.jjbuckley.com": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "zsdwgxrmfcibgh": {
+          "sessions": 1,
+          "totalUsers": 0
+        }
+      }
+    },
+    "gsc": {
+      "clicks_total": 51042,
+      "clicks_by_host": {
+        "www.ramify.fr": 50851,
+        "ramify.fr": 190,
+        "back-office.ramify.fr": 1,
+        "status.ramify.fr": 0,
+        "storybook.staging.ramify.fr": 0
+      }
+    },
+    "ahrefs": {
+      "visitors": 195757,
+      "visits": 217185,
+      "pageviews": 516849,
+      "channels": {
+        "search/paid": 61751,
+        "direct": 53134,
+        "search": 50154,
+        "internal": 15475,
+        "paid": 5768,
+        "referral": 4495,
+        "unknown": 3545,
+        "email": 2808,
+        "social": 921,
+        "llm": 731,
+        "affiliate": 68,
+        "social/paid": 30
+      }
+    }
+  },
+  {
+    "month": "2026-03",
+    "ga": {
+      "overall": {
+        "totalUsers": 155829,
+        "activeUsers": 155907,
+        "sessions": 229021,
+        "screenPageViews": 540890,
+        "engagedSessions": 132729
+      },
+      "channels": {
+        "Cross-network": {
+          "sessions": 112039,
+          "totalUsers": 83419
+        },
+        "Organic Search": {
+          "sessions": 69597,
+          "totalUsers": 44263
+        },
+        "Direct": {
+          "sessions": 16090,
+          "totalUsers": 10725
+        },
+        "Unassigned": {
+          "sessions": 7831,
+          "totalUsers": 5334
+        },
+        "Referral": {
+          "sessions": 7454,
+          "totalUsers": 4882
+        },
+        "Paid Search": {
+          "sessions": 6668,
+          "totalUsers": 5194
+        },
+        "Email": {
+          "sessions": 3748,
+          "totalUsers": 2549
+        },
+        "Paid Social": {
+          "sessions": 2365,
+          "totalUsers": 2185
+        },
+        "Organic Social": {
+          "sessions": 627,
+          "totalUsers": 61
+        },
+        "Paid Other": {
+          "sessions": 71,
+          "totalUsers": 10
+        },
+        "Affiliates": {
+          "sessions": 53,
+          "totalUsers": 45
+        },
+        "Organic Video": {
+          "sessions": 11,
+          "totalUsers": 3
+        }
+      },
+      "hosts": {
+        "www.ramify.fr": {
+          "sessions": 159684,
+          "totalUsers": 115087
+        },
+        "app.ramify.fr": {
+          "sessions": 71103,
+          "totalUsers": 44583
+        },
+        "explore.ramify.fr": {
+          "sessions": 1778,
+          "totalUsers": 1442
+        },
+        "app.livestorm.co": {
+          "sessions": 1048,
+          "totalUsers": 813
+        },
+        "ramify-digidop.webflow.io": {
+          "sessions": 138,
+          "totalUsers": 7
+        },
+        "calendly.com": {
+          "sessions": 92,
+          "totalUsers": 81
+        },
+        "dev-ramify.webflow.io": {
+          "sessions": 68,
+          "totalUsers": 67
+        },
+        "form.typeform.com": {
+          "sessions": 53,
+          "totalUsers": 46
+        },
+        "ramify-digidop.canvas.webflow.com": {
+          "sessions": 24,
+          "totalUsers": 1
+        },
+        "dashboard-4g8xqyfux-ramify.vercel.app": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "dashboard-7b2bzkch4-ramify.vercel.app": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "ramify-digidop-9f82240cc3a55f369143774d.webflow.io": {
+          "sessions": 1,
+          "totalUsers": 1
+        },
+        "ramify-production-app.netlify.app": {
+          "sessions": 1,
+          "totalUsers": 0
+        },
+        "www-ramify-fr.translate.goog": {
+          "sessions": 1,
+          "totalUsers": 0
+        }
+      }
+    },
+    "gsc": {
+      "clicks_total": 40272,
+      "clicks_by_host": {
+        "www.ramify.fr": 40071,
+        "ramify.fr": 200,
+        "storybook.staging.ramify.fr": 1,
+        "back-office.ramify.fr": 0,
+        "status.ramify.fr": 0
+      }
+    },
+    "ahrefs": {
+      "visitors": 197848,
+      "visits": 219306,
+      "pageviews": 494868,
+      "channels": {
+        "search/paid": 76249,
+        "direct": 51396,
+        "search": 39947,
+        "internal": 13631,
+        "paid": 7539,
+        "referral": 4267,
+        "unknown": 3787,
+        "email": 3016,
+        "social": 903,
+        "llm": 609,
+        "affiliate": 39
+      }
+    }
+  }
+]

@@ -1,0 +1,418 @@
+[
+  {
+    "scenario": "no_click",
+    "title": "Private Equity : Définition et Comment investir ? (capital investissement, c'est quoi, qu'est-ce que le)",
+    "elapsed_ms": 8360,
+    "clicked": null,
+    "buttons": [],
+    "pre": {
+      "counts": {
+        "gtm": 1,
+        "ahrefs_script": 1,
+        "ga4_collect": 1
+      },
+      "requests": [
+        {
+          "type": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ahrefs_script",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        }
+      ],
+      "cookies": [
+        "_cfuvid",
+        "first_page",
+        "fs-consent-ad_personalization",
+        "fs-consent-ad_storage",
+        "fs-consent-ad_user_data",
+        "fs-consent-analytics_storage",
+        "fs-consent-functionality_storage",
+        "fs-consent-personalization_storage",
+        "fs-consent-security_storage",
+        "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog",
+        "testedUserId:cm9v67jxw001910j2i8n88jig"
+      ]
+    },
+    "after_consent": {
+      "counts": {
+        "gtm": 1,
+        "ahrefs_script": 1,
+        "ga4_collect": 1
+      },
+      "requests": [
+        {
+          "type": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ahrefs_script",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        }
+      ],
+      "cookies": []
+    },
+    "post": {
+      "counts": {
+        "ga4_collect": 2,
+        "gtm": 1,
+        "ahrefs_script": 1
+      },
+      "requests": [
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "user_engagement",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        },
+        {
+          "type": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ahrefs_script",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        }
+      ],
+      "cookies": [
+        "_cfuvid",
+        "first_page",
+        "fs-consent-ad_personalization",
+        "fs-consent-ad_storage",
+        "fs-consent-ad_user_data",
+        "fs-consent-analytics_storage",
+        "fs-consent-functionality_storage",
+        "fs-consent-personalization_storage",
+        "fs-consent-security_storage",
+        "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog",
+        "testedUserId:cm9v67jxw001910j2i8n88jig"
+      ]
+    }
+  },
+  {
+    "scenario": "accept",
+    "title": "Private Equity : Définition et Comment investir ? (capital investissement, c'est quoi, qu'est-ce que le)",
+    "elapsed_ms": 12385,
+    "clicked": "/accepter/i",
+    "buttons": [],
+    "pre": {
+      "counts": {
+        "gtm": 1,
+        "ahrefs_script": 1,
+        "ga4_collect": 1
+      },
+      "requests": [
+        {
+          "type": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ahrefs_script",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        }
+      ],
+      "cookies": [
+        "_cfuvid",
+        "first_page",
+        "fs-consent-ad_personalization",
+        "fs-consent-ad_storage",
+        "fs-consent-ad_user_data",
+        "fs-consent-analytics_storage",
+        "fs-consent-functionality_storage",
+        "fs-consent-personalization_storage",
+        "fs-consent-security_storage",
+        "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog",
+        "testedUserId:cm9v67jxw001910j2i8n88jig"
+      ]
+    },
+    "after_consent": {
+      "counts": {
+        "gtm": 1,
+        "ahrefs_script": 1,
+        "ga4_collect": 1
+      },
+      "requests": [
+        {
+          "type": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ahrefs_script",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        }
+      ],
+      "cookies": []
+    },
+    "post": {
+      "counts": {
+        "gtm": 1,
+        "ahrefs_script": 1
+      },
+      "requests": [
+        {
+          "type": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ahrefs_script",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        }
+      ],
+      "cookies": [
+        "__cf_bm",
+        "__hssc",
+        "__hssrc",
+        "__hstc",
+        "_cfuvid",
+        "_cfuvid",
+        "_clck",
+        "_clsk",
+        "_fbp",
+        "_ga",
+        "_ga_FRCF1F3YBQ",
+        "_gcl_au",
+        "first_page",
+        "fs-consent",
+        "fs-consent-ad_personalization",
+        "fs-consent-ad_storage",
+        "fs-consent-ad_user_data",
+        "fs-consent-analytics_storage",
+        "fs-consent-functionality_storage",
+        "fs-consent-personalization_storage",
+        "fs-consent-security_storage",
+        "fs-consent-updated",
+        "hubspotutk",
+        "IDE",
+        "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog",
+        "testedUserId:cm9v67jxw001910j2i8n88jig",
+        "utm_source"
+      ]
+    }
+  },
+  {
+    "scenario": "reject",
+    "title": "Private Equity : Définition et Comment investir ? (capital investissement, c'est quoi, qu'est-ce que le)",
+    "elapsed_ms": 8316,
+    "clicked": null,
+    "buttons": [],
+    "pre": {
+      "counts": {
+        "gtm": 1,
+        "ahrefs_script": 1,
+        "ga4_collect": 1
+      },
+      "requests": [
+        {
+          "type": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ahrefs_script",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        }
+      ],
+      "cookies": [
+        "_cfuvid",
+        "first_page",
+        "fs-consent-ad_personalization",
+        "fs-consent-ad_storage",
+        "fs-consent-ad_user_data",
+        "fs-consent-analytics_storage",
+        "fs-consent-functionality_storage",
+        "fs-consent-personalization_storage",
+        "fs-consent-security_storage",
+        "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog",
+        "testedUserId:cm9v67jxw001910j2i8n88jig"
+      ]
+    },
+    "after_consent": {
+      "counts": {
+        "gtm": 1,
+        "ahrefs_script": 1,
+        "ga4_collect": 1
+      },
+      "requests": [
+        {
+          "type": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ahrefs_script",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        }
+      ],
+      "cookies": []
+    },
+    "post": {
+      "counts": {
+        "ga4_collect": 2,
+        "gtm": 1,
+        "ahrefs_script": 1
+      },
+      "requests": [
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "user_engagement",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        },
+        {
+          "type": "gtm",
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ahrefs_script",
+          "host": "analytics.ahrefs.com",
+          "path": "/analytics.js",
+          "query_summary": {}
+        },
+        {
+          "type": "ga4_collect",
+          "host": "region1.google-analytics.com",
+          "path": "/g/collect",
+          "query_summary": {
+            "tid": "G-FRCF1F3YBQ",
+            "en": "page_view",
+            "gcs": "G100",
+            "pscdl": "denied"
+          }
+        }
+      ],
+      "cookies": [
+        "_cfuvid",
+        "first_page",
+        "fs-consent-ad_personalization",
+        "fs-consent-ad_storage",
+        "fs-consent-ad_user_data",
+        "fs-consent-analytics_storage",
+        "fs-consent-functionality_storage",
+        "fs-consent-personalization_storage",
+        "fs-consent-security_storage",
+        "ph_phc_GcJUmQr8tB5z0fszKxR55xDYrU8bI6dWS6gJndX8UNy_posthog",
+        "testedUserId:cm9v67jxw001910j2i8n88jig"
+      ]
+    }
+  }
+]
